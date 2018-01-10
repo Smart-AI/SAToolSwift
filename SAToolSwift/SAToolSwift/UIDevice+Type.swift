@@ -1,6 +1,6 @@
 //
 //  UIDevice+Type.swift
-//  iOSCollegeWiki
+//  SAToolSwift
 //
 //  Created by Smart-AI on 08/11/2017.
 //  Copyright © 2017 Smart-AI. All rights reserved.

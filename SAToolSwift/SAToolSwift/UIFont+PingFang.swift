@@ -1,6 +1,6 @@
 //
 //  UIFont+PingFang.swift
-//  iOSCollegeWiki
+//  SAToolSwift
 //
 //  Created by Smart-AI on 07/11/2017.
 //  Copyright © 2017 Smart-AI. All rights reserved.

@@ -1,8 +1,8 @@
 //
 //  UIColor+ValueRGB.swift
-//  iOSCollegeWiki
+//  SAToolSwift
 //
-//  Created by wy on 2017/11/6.
+//  Created by Smart-AI on 2017/11/6.
 //  Copyright © 2017年 Smart-AI. All rights reserved.
 //
 

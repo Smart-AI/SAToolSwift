@@ -1,6 +1,6 @@
 //
-//  ToolWiKiConstant.swift
-//  iOSCollegeWiki
+//  ToolConstant.swift
+//  SAToolSwift
 //
 //  Created by Smart-AI on 06/11/2017.
 //  Copyright © 2017 Smart-AI. All rights reserved.

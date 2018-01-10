@@ -14,6 +14,11 @@
 		54B4F1D52005EF9C002B51B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54B4F1D32005EF9C002B51B4 /* LaunchScreen.storyboard */; };
 		54B4F1E02005EF9C002B51B4 /* SAToolSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B4F1DF2005EF9C002B51B4 /* SAToolSwiftTests.swift */; };
 		54B4F1EB2005EF9C002B51B4 /* SAToolSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B4F1EA2005EF9C002B51B4 /* SAToolSwiftUITests.swift */; };
+		54B4F1FD2005EFD0002B51B4 /* UIDevice+Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B4F1F82005EFCF002B51B4 /* UIDevice+Type.swift */; };
+		54B4F1FE2005EFD0002B51B4 /* UIColor+ValueRGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B4F1F92005EFCF002B51B4 /* UIColor+ValueRGB.swift */; };
+		54B4F1FF2005EFD0002B51B4 /* UIImage+Named.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B4F1FA2005EFD0002B51B4 /* UIImage+Named.swift */; };
+		54B4F2002005EFD0002B51B4 /* UIFont+PingFang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B4F1FB2005EFD0002B51B4 /* UIFont+PingFang.swift */; };
+		54B4F2012005EFD0002B51B4 /* ToolConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B4F1FC2005EFD0002B51B4 /* ToolConstant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		54B4F1E62005EF9C002B51B4 /* SAToolSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAToolSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B4F1EA2005EF9C002B51B4 /* SAToolSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAToolSwiftUITests.swift; sourceTree = "<group>"; };
 		54B4F1EC2005EF9C002B51B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54B4F1F82005EFCF002B51B4 /* UIDevice+Type.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Type.swift"; sourceTree = "<group>"; };
+		54B4F1F92005EFCF002B51B4 /* UIColor+ValueRGB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+ValueRGB.swift"; sourceTree = "<group>"; };
+		54B4F1FA2005EFD0002B51B4 /* UIImage+Named.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Named.swift"; sourceTree = "<group>"; };
+		54B4F1FB2005EFD0002B51B4 /* UIFont+PingFang.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+PingFang.swift"; sourceTree = "<group>"; };
+		54B4F1FC2005EFD0002B51B4 /* ToolConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolConstant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,11 @@
 		54B4F1C92005EF9C002B51B4 /* SAToolSwift */ = {
 			isa = PBXGroup;
 			children = (
+				54B4F1FC2005EFD0002B51B4 /* ToolConstant.swift */,
+				54B4F1F92005EFCF002B51B4 /* UIColor+ValueRGB.swift */,
+				54B4F1FB2005EFD0002B51B4 /* UIFont+PingFang.swift */,
+				54B4F1FA2005EFD0002B51B4 /* UIImage+Named.swift */,
+				54B4F1F82005EFCF002B51B4 /* UIDevice+Type.swift */,
 				54B4F1CA2005EF9C002B51B4 /* AppDelegate.swift */,
 				54B4F1CC2005EF9C002B51B4 /* ViewController.swift */,
 				54B4F1CE2005EF9C002B51B4 /* Main.storyboard */,
@@ -193,7 +208,7 @@
 				TargetAttributes = {
 					54B4F1C62005EF9C002B51B4 = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					54B4F1DA2005EF9C002B51B4 = {
 						CreatedOnToolsVersion = 9.1;
@@ -259,6 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54B4F1FD2005EFD0002B51B4 /* UIDevice+Type.swift in Sources */,
+				54B4F1FE2005EFD0002B51B4 /* UIColor+ValueRGB.swift in Sources */,
+				54B4F2012005EFD0002B51B4 /* ToolConstant.swift in Sources */,
+				54B4F2002005EFD0002B51B4 /* UIFont+PingFang.swift in Sources */,
+				54B4F1FF2005EFD0002B51B4 /* UIImage+Named.swift in Sources */,
 				54B4F1CD2005EF9C002B51B4 /* ViewController.swift in Sources */,
 				54B4F1CB2005EF9C002B51B4 /* AppDelegate.swift in Sources */,
 			);
@@ -426,11 +446,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SAToolSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Smart-AI.SAToolSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,11 +462,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SAToolSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Smart-AI.SAToolSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
